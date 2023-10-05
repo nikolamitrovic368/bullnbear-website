@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../icomoon/icomoon.eot?xvnvs6');
+  src:  url('../icomoon/icomoon.eot?xvnvs6#iefix') format('embedded-opentype'),
+    url('../icomoon/icomoon.ttf?xvnvs6') format('truetype'),
+    url('../icomoon/icomoon.woff?xvnvs6') format('woff'),
+    url('../icomoon/icomoon.svg?xvnvs6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-doc:before {
+  content: "\e90a";
+}
+.icon-blog:before {
+  content: "\e903";
+}
+.icon-contact-us:before {
+  content: "\e909";
+}
+.icon-faq:before {
+  content: "\e904";
+}
+.icon-mail:before {
+  content: "\e901";
+}
+.icon-user:before {
+  content: "\e906";
+}
+.icon-done:before {
+  content: "\e907";
+}
+.icon-minus:before {
+  content: "\e911";
+}
+.icon-connection:before {
+  content: "\e91d";
+}
+.icon-diamond:before {
+  content: "\e91e";
+}
+.icon-secure:before {
+  content: "\e91f";
+}
+.icon-technology:before {
+  content: "\e920";
+}
+.icon-chevron-secondary:before {
+  content: "\e91b";
+}
+.icon-icon-settings:before {
+  content: "\e91c";
+}
+.icon-copy:before {
+  content: "\e91a";
+}
+.icon-messenger:before {
+  content: "\e917";
+}
+.icon-share:before {
+  content: "\e918";
+}
+.icon-whatsapp:before {
+  content: "\e919";
+}
+.icon-arrow:before {
+  content: "\e916";
+}
+.icon-discord:before {
+  content: "\e90b";
+}
+.icon-facebook:before {
+  content: "\e90c";
+}
+.icon-linkedin:before {
+  content: "\e90d";
+}
+.icon-telegram:before {
+  content: "\e90f";
+}
+.icon-twitter:before {
+  content: "\e910";
+}
+.icon-check-circle:before {
+  content: "\e905";
+}
+.icon-double-arrow:before {
+  content: "\e908";
+}
+.icon-chevron:before {
+  content: "\e900";
+}
+.icon-language:before {
+  content: "\e902";
+}

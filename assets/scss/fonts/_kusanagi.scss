@@ -1,0 +1,9 @@
+/* Kusanagi */
+@font-face {
+  font-family: 'Kusanagi';
+  font-style: normal;
+  font-weight: 700;
+  src: url("~/assets/fonts/kusanagi/kusanagi.otf") format("opentype");
+  src: local(''),
+       url('~/assets/fonts/kusanagi/kusanagi.woff') format('woff'), /* Modern Browsers */
+}

@@ -1,0 +1,15 @@
+.gradient-primary {
+  background: linear-gradient(
+    263.44deg,
+    theme('colors.brilliant-azure') 0%,
+    theme('colors.jewel-caterpillar') 100%
+  );
+}
+
+.gradient-secondary {
+  background: linear-gradient(
+    251.87deg,
+    theme('colors.konkikyo-blue') 5.56%,
+    theme('colors.jagger') 99.68%
+  );
+}

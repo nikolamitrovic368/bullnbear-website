@@ -1,0 +1,35 @@
+@mixin textGradient($startDeg: 180deg, $colorStart: #FF289A, $colorStartPerc: 47.92%, $colorEnd: #5246B0, $colorEndPerc: 100%) {
+  background: -webkit-linear-gradient($startDeg, $colorStart $colorStartPerc, $colorEnd $colorEndPerc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin animationOffset($data-name, $offsetX: '100px', $offsetY: '0px') {
+  &[data-aos="#{$data-name}"] {
+    @apply opacity-0;
+    transition-property: transform, opacity;
+  
+    &.aos-animate {
+      @apply opacity-100;
+    }
+    
+    transform: translate(#{$offsetX}, #{$offsetY});
+    &.aos-animate {
+      transform: translateX(0);
+    }
+  }
+}
+
+@mixin getIcon($icon-name) {
+  content: '#{$icon-name}';
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

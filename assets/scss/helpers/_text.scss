@@ -1,0 +1,23 @@
+.section {
+  &__title {
+    @apply font-bold text-white;
+  }
+
+  &__desc {
+    @apply font-medium text-18 text-time-warp;
+  }
+
+  /* Large Devices, Wide Screens */
+  @media(min-width: 1280px) {
+    &__title {
+      @apply text-35;
+    }
+  }
+
+  /* Medium Devices, Desktops */
+  @media(max-width: 1279px) {
+    &__title {
+      @apply text-30;
+    }
+  }
+}

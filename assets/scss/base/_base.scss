@@ -1,0 +1,7 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  @apply bg-reversed-grey font-base overflow-x-hidden;
+}
